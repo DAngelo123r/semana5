@@ -18,4 +18,9 @@ let altura = +prompt("Cual es la altura del triangulo?")
 let resultado = base*altura/2;
 console.log(resultado);
 
+//3. preguntar al usuario por dos numeros y mostrar el residuo de la division.
 
+let dividendo = +prompt("Cuál es el dividendo?")
+let divisor = +prompt("Cuál es el divisor?")
+console.log(`El residuo de dividir ${dividendo} y ${divisor} es ${residuo}`)
+let residuo = dividendo % divisor
