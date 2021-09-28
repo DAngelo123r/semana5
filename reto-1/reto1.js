@@ -7,14 +7,14 @@
 //1 galon = 3.785 litros
 
 
-let precioGalone = +prompt("Cuánto es el precio del galón de leche?");
+let PG = +prompt("Cuánto es el precio del galón de leche?");
 
-let cantidadGalones = +prompt("Cuántos galones se vendieron");
+let TG = +prompt("Cuántos galones se vendieron");
 
-const galonexlitro = 3.785;
+const galonexL = 3.785;
 
-let conversionAlitros = cantidadGalones * galonexlitro;
+let conversionAlitros = TG * galonexL;
 
-let ganancia = precioGalone * conversionAlitros;
+let GA = PG * conversionAlitros;
 
-window.alert(`Recibira ${ganancia} PEN por la entrega de produccion de hoy.`);
+window.alert(`Recibira ${GA} PEN por la entrega de produccion de hoy.`);
