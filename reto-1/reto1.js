@@ -17,4 +17,4 @@ let conversionAlitros = cantidadGalones * galonexlitro;
 
 let ganancia = precioGalone * conversionAlitros;
 
-alert(`Recibira ${ganancia} por la entrega de produccion de hoy.`);
+window.alert(`Recibira ${ganancia} PEN por la entrega de produccion de hoy.`);
